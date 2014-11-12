@@ -21,9 +21,9 @@ While development usually we depand on inhouse or public STAGE/QA/SANDBOX servic
 
 ### Config
 
- -**title**: Title of the table. [optional]
- -**showcolors**: show results in colors. default `true` [optional]
- -**showOnlyErrors**: show only error results. default `false` [optional]
+  - **title**: Title of the table. [optional]
+  - **showcolors**: show results in colors. default `true` [optional]
+  - **showOnlyErrors**: show only error results. default `false` [optional]
 
 ### Data format
 

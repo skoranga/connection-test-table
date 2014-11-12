@@ -26,6 +26,15 @@ describe('Service Configurator with no config', function () {
         });
 
     });
+
+    it('No data', function (next) {
+
+        connectionTester.test(null, null, function (err, results) {
+            assert.ok(results);
+            next();
+        });
+
+    });
 });
 
 
