@@ -1,0 +1,22 @@
+{
+    "service1": {
+        "protocol": "http:",
+        "host": "api1.qa.example.com",
+        "port": 8080
+    },
+    "service2": {
+        "protocol": "https:",
+        "host": "api2.qa.example.com",
+        "port": 8443
+    },
+    "servicegroup": {
+        "service1": {
+            "protocol": "http:",
+            "host": "api1.qa.example.com"
+        },
+        "service2": {
+            "protocol": "https:",
+            "host": "api2.qa.example.com"
+        }
+    }
+}

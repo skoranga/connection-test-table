@@ -1,0 +1,54 @@
+{
+    "yahoo": {
+        "flickr": {
+            "protocol": "https:",
+            "host": "up.flickr.com"
+        },
+        "weather": {
+            "protocol": "https:",
+            "host": "query.yahooapis.com"
+        },
+        "finance": {
+            "protocol": "http:",
+            "basepath": "/webservice/v1/symbols/allcurrencies/quote",
+            "host": "finance.yahoo.com"
+        }
+    },
+    "google": {
+        "maps": {
+            "protocol": "https:",
+            "host": "maps.googleapis.com"
+        },
+        "translate": {
+            "protocol": "https:",
+            "host": "www.googleapis.com"
+        }
+    },
+    "ebay": {
+        "search": {
+            "protocol": "http:",
+            "basepath": "/services/search/FindingService/v1",
+            "host": "svcs.ebay.com"
+        },
+        "shopping": {
+            "protocol": "http:",
+            "basepath": "/shopping",
+            "host": "open.api.ebay.com"
+        }
+    },
+    "paypal": {
+        "protocol": "https:",
+        "host": "api.paypal.com"
+    },
+    "netflix": {
+        "protocol": "http:",
+        "basepath": "/",
+        "keepalive": false,
+        "socketTimeout": 2000,
+        "host": "api-public.netflix.com",
+        "port": "80"
+    },
+    "twitter": {
+        "host": "api.twitter.com"
+    }
+}
