@@ -12,7 +12,6 @@ While development usually we depand on inhouse or public STAGE/QA/SANDBOX servic
 ```javascript
     var connectionTester = require('connection-test-table');
 
-
     var config = {};
     var jsonData = {};
     connectionTester.test(config, jsonData, [callback]);
@@ -24,6 +23,15 @@ While development usually we depand on inhouse or public STAGE/QA/SANDBOX servic
   - **title**: Title of the table. [optional]
   - **showcolors**: show results in colors. default `true` [optional]
   - **showOnlyErrors**: show only error results. default `false` [optional]
+
+```javascript
+
+    var config = {
+        title: 'My awesome title',
+        showcolors: true,
+        showOnlyErrors: false
+    };
+```
 
 ### Data format
 
