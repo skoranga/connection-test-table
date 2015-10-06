@@ -9,8 +9,6 @@ test:
 		--reporter $(REPORTER)
 
 lint:
-	$(JSHINT) index.js --config $(BASE)/.jshintrc && \
-	$(JSHINT) ./lib --config $(BASE)/.jshintrc && \
-	$(JSHINT) ./test --config $(BASE)/.jshintrc
+	$(JSHINT) index.js ./lib ./test --config $(BASE)/.jshintrc
 
 .PHONY: test docs

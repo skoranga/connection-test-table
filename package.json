@@ -1,15 +1,18 @@
 {
   "name": "connection-test-table",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "connection test table module",
   "main": "index.js",
   "scripts": {
-    "test": "make test"
+    "test": "NODE_ENV=test mocha"
   },
   "homepage": "https://github.com/skoranga/connection-test-table",
   "repository": {
     "type": "git",
     "url": "git@github.com:skoranga/connection-test-table.git"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
   },
   "keywords": [
     "testing",
@@ -21,14 +24,14 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "async": "~0.9",
-    "colors": "~0.6.2",
-    "try-require": "~1.0",
-    "easy-table": "~0.3.0",
-    "connection-tester": "~0.0.2"
+    "async": "~1.4.0",
+    "colors": "~1.1.0",
+    "try-require": "^1.0",
+    "easy-table": "~1.0.0",
+    "connection-tester": "~0.0.7"
   },
   "devDependencies": {
-    "mocha" : "^1",
+    "mocha" : "^2",
     "jshint" : "^2"
   }
 }
