@@ -3,7 +3,7 @@ connection-test-table
 
 Test dependent service host/port to check if the connection can be established and print the result in tabular structure.
 
-While development usually we depand on inhouse or public STAGE/QA/SANDBOX services and it's very common to find these services flaky. To find if your node app is not working as expected because of bad host/server down/server unreachable, you can use this module at server startup.
+While development usually we depend on in-house or public STAGE/QA/SANDBOX services and it's very common to find these services flaky. To find if your node app is not working as expected because of bad host/server down/server unreachable, you can use this module at server startup.
 
 
 ### How to Use
