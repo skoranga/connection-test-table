@@ -1,9 +1,10 @@
 {
   "name": "connection-test-table",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "connection test table module",
   "main": "index.js",
   "scripts": {
+    "pretest": "jshint index.js ./lib ./test --config ./.jshintrc",
     "test": "NODE_ENV=test mocha"
   },
   "homepage": "https://github.com/skoranga/connection-test-table",
@@ -24,11 +25,11 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "async": "~1.4.0",
+    "async": "^1.4.0",
     "colors": "~1.1.0",
     "try-require": "^1.0",
     "easy-table": "~1.0.0",
-    "connection-tester": "~0.0.7"
+    "connection-tester": "~0.1.1"
   },
   "devDependencies": {
     "mocha" : "^2",
