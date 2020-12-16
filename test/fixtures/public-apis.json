@@ -6,7 +6,7 @@
         },
         "weather": {
             "protocol": "https:",
-            "host": "query.yahooapis.com"
+            "host": "api.weather.gov"
         },
         "finance": {
             "protocol": "http:",
